@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { TouchableOpacity, View, Image, Text, StyleSheet } from 'react-native';
 import storage from '../Model/PosterificStorage';
 
+
 export default class HomeScreen extends React.Component {
   constructor(props) {
     super(props);
