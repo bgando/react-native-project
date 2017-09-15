@@ -21,6 +21,7 @@ public class MainActivity extends ReactActivity {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        MainApplication.getCallbackManager().onActivityResult(requestCode, resultCode, data);
         super.onActivityResult(requestCode, resultCode, data);
     }
 }
