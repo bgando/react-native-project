@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { TouchableOpacity, View, Image, Text, StyleSheet } from 'react-native';
 import storage from '../Model/PosterificStorage';
-
+import { LoginButton } from 'react-native-fbsdk';
 
 export default class HomeScreen extends React.Component {
   constructor(props) {
@@ -31,7 +31,7 @@ export default class HomeScreen extends React.Component {
             <Text style={{ margin: 3, color: 'white', fontWeight: 'bold' }}>Get Started</Text>
           </View>
         </TouchableOpacity>
-
+        <LoginButton />
       </Image>
     );
   }
