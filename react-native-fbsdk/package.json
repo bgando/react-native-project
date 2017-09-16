@@ -1,0 +1,56 @@
+{
+  "_from": "react-native-fbsdk",
+  "_id": "react-native-fbsdk@0.6.1",
+  "_inBundle": false,
+  "_integrity": "sha1-Jovb2loW9TQcpD4/ob64iAHjWpI=",
+  "_location": "/react-native-fbsdk",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-fbsdk",
+    "name": "react-native-fbsdk",
+    "escapedName": "react-native-fbsdk",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-fbsdk/-/react-native-fbsdk-0.6.1.tgz",
+  "_shasum": "268bdbda5a16f5341ca43e3fa1beb88801e35a92",
+  "_spec": "react-native-fbsdk",
+  "_where": "/Users/bgando/fb",
+  "author": {
+    "name": "Zhuowen Deng"
+  },
+  "bundleDependencies": false,
+  "contributors": {
+    "name": "Chris Hackmann"
+  },
+  "deprecated": false,
+  "description": "Facebook SDK support for React Native apps.",
+  "homepage": "https://github.com/facebook/react-native-fbsdk/",
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "android",
+    "facebook",
+    "core"
+  ],
+  "license": "Facebook Platform License",
+  "main": "./js/index.js",
+  "name": "react-native-fbsdk",
+  "peerDependencies": {
+    "react-native": "0.48.3"
+  },
+  "dependencies": {
+    "prop-types": "15.5.8",
+    "react": "15.4.0"
+  },
+  "version": "0.6.1"
+}
